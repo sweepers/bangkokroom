@@ -1,25 +1,17 @@
 {
   "name": "bangkokroom",
   "version": "1.0.0",
-  "description": "first start",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sweepers/bangkokroom.git"
-  },
-  "keywords": [
-    "bangkokroom"
-  ],
+  "description": "My excellent Nuxt.js project",
   "author": "sweepers",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sweepers/bangkokroom/issues"
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
-  "homepage": "https://github.com/sweepers/bangkokroom#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "nuxt": "^2.9.2"
+  },
+  "devDependencies": {}
 }
